@@ -15,9 +15,11 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     margin: 10,
+    width: 200,
   },
   buttonText: {
     color: '#fff',
     fontSize: 18,
+    textAlign: "center",
   },
 });
