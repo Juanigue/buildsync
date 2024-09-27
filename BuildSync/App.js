@@ -11,16 +11,16 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.textos}>
-       BuildSync
-      </Text>
-      <Image
-        source={require("./assets/logo1.png")}
-        style={{ width: 200, height: 200 }}
-      />
-      <text>¿Ya tienes cuenta?</text>
+        <Text style={styles.textos}>
+        BuildSync
+        </Text>
+        <Image
+          source={require("./assets/logo1.png")}
+          style={{ width: 200, height: 200 }}
+        />
+      <text style={styles.textos}>¿Ya tienes cuenta?</text>
       <Button title="Iniciar Sesion " onPress={handlePress} />
-      <text>¿No tienes cuenta?</text>
+      <text style={styles.textos}>¿No tienes cuenta?</text>
       <Button title="Registrarse" onPress={handlePress}/>
       <StatusBar style="auto" />
     </View>
