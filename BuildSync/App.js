@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.textos}>
-        Open up App.js to start working on your app!
+       BuildSync
       </Text>
       <Image
         source={require("./assets/logo1.png")}
