@@ -20,6 +20,8 @@ export default function App() {
       />
       <text>¿Ya tienes cuenta?</text>
       <Button title="Iniciar Sesion " onPress={handlePress} />
+      <text>¿No tienes cuenta?</text>
+      <button title="Registrarse" onPress={handlePress}/>
       <StatusBar style="auto" />
     </View>
   );
