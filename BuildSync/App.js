@@ -18,7 +18,8 @@ export default function App() {
         source={require("./assets/logo1.png")}
         style={{ width: 200, height: 200 }}
       />
-      <Button title="Press Me" onPress={handlePress} />
+      <text>¿Ya tienes cuenta?</text>
+      <Button title="Press git commit -m " onPress={handlePress} />
       <StatusBar style="auto" />
     </View>
   );
