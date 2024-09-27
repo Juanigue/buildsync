@@ -19,7 +19,7 @@ export default function App() {
         style={{ width: 200, height: 200 }}
       />
       <text>¿Ya tienes cuenta?</text>
-      <Button title="Press git commit -m " onPress={handlePress} />
+      <Button title="Iniciar Sesion " onPress={handlePress} />
       <StatusBar style="auto" />
     </View>
   );
