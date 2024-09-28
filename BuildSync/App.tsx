@@ -6,6 +6,7 @@ import { View } from "react-native";
 import { Session } from "@supabase/supabase-js";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, Image } from "react-native";
+import Header from "./components/Header";
 
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
@@ -22,6 +23,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Header title="Mi Aplicación"></Header>
       <Text style={styles.textos}>BuildSync</Text>
       <Image
         source={require("./assets/logo1.png")}
